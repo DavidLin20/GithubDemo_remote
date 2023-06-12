@@ -2,11 +2,10 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, my world!")
+        ZStack {
+            Color.red.ignoresSafeArea(.all)
+            Text("This is a test")
+                .padding()
         }
     }
 }
